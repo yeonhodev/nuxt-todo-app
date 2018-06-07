@@ -1,0 +1,15 @@
+body.theme-dark {
+  color: $white;
+  background-color: $dark;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+  &:visited {
+    color: $font-gray;
+  }
+}
